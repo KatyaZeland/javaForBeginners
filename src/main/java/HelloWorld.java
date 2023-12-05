@@ -3,5 +3,6 @@ public class HelloWorld {
      int myInt;
      myInt = 557;
      System.out.println(myInt);
+     System.out.println(myInt);
     }
 }
