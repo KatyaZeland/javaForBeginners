@@ -1,15 +1,12 @@
 public class HelloWorld {
     public static void main(String[] args) {
-     int myInt;
-     myInt = 557;
-     short myShort =3255;
-     long mylong = 234456008;
-     double myDouble = 345.98;
-     float myFloat = 5643.9f;
-     char c = 'a';
-     boolean b = true;
-     byte myByte = 100;  //-128 -127
-     System.out.println(myByte);
+     int x = 8;
+     String s = "Hello";
+     String space = " ";
+     String  name = "Bob";
+     System.out.println(s+space+name);
+     System.out.println("Hellow"+" "+"Mama");
+     System.out.println("My number is "+x);
 
     }
 }
