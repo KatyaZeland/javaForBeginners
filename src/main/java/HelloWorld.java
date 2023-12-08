@@ -1,7 +1,12 @@
 public class HelloWorld {
     public static void main(String[] args) {
-        for (int i = 0; i <= 10; i = i + 1) {
-            System.out.println("Hello " + i);// i++== i=i+1
+       int myInt = 15;
+        if (myInt<10){
+            System.out.println("да вверно");
+        } else if (myInt>20) {
+            System.out.println("нет, не вверно");
+        } else {
+            System.out.println("ни один из придыдущих случаев.");
         }
     }
 }
