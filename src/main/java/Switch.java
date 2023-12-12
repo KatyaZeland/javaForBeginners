@@ -2,21 +2,18 @@ import java.util.Scanner;
 
 public class Switch {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Введи возраст");
-        String age = scanner.nextLine();
-        switch (age) {
-            case "ноль":
-                System.out.println("ты родился");
-                break;
-            case "сем" :
-                System.out.println("ты пошол в школу");
-                break;
-            case "восемнадцать":
-                System.out.println("ты закончил школу");
-                break;
-            default:
-                System.out.println("ни одно из придидущих условий не подошло");
+        int number =10; //примитивный тип данных    //[10]
+        int [] numbers = new int[5];     // numbers ==>[масив]  Сылочний тип данних
+        for (int i = 0; i<numbers.length; i++){
+            numbers[i] = i*10;
+        }
+        for (int i =0; i<numbers.length; i++){
+            System.out.println(numbers[i]);
+        }
+        System.out.println();
+        int[] numbers1 = {1, 2, 3};
+        for (int i = 0; i<numbers1.length; i++ ){
+            System.out.println(numbers1[i]);
         }
     }
 }
