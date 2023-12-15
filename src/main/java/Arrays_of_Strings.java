@@ -21,5 +21,10 @@ public class Arrays_of_Strings {
         }
         System.out.println();
         System.out.println(sum);
+
+        int value = 0;
+        String s = null;
+        System.out.println(s);
+
     }
 }
